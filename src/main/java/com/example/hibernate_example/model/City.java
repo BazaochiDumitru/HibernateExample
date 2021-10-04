@@ -15,4 +15,7 @@ public class City {
 
     @Column(name = "name")
     private String name;
+
+    @ManyToOne
+    private Country country;
 }
