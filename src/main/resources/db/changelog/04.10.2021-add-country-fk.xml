@@ -14,7 +14,6 @@
     </changeSet>
 
     <changeSet author="liquibase-docs" id="addCityCountryFK">
-
         <addForeignKeyConstraint
                 baseTableName="cities"
                 baseColumnNames="country_id"
@@ -25,7 +24,4 @@
                 onUpdate="RESTRICT"
         />
     </changeSet>
-
-
-
 </databaseChangeLog>
